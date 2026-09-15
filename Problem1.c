@@ -10,3 +10,10 @@ int main()
 
   return 0;
 }
+
+/*Algorithm
+Step 1: Start
+Step 2: Print the student's name ("the name of the student is anshul aman")
+Step 3: Print the student's roll number ("the roll number of the student is 26EE1008")
+Step 4: Print the student's subject ("the subject of the student is electrical engineering")
+Step 5: Stop */
