@@ -37,3 +37,61 @@ Step 9: Print "forename : %c\n" displaying the value of fn.
 Step 10: Print "surname: %c\n" displaying the value of sn.
 Step 11: Print "year of birth: %d\n" displaying the value of yob.
 Step 12: Stop.*/
+
+/*
+
+       ( Start )  <-- Oval
+           |
+           v
+  [ Declare char fn, char sn, int yob ]  <-- Rectangle (Process)
+           |
+           v
+  /------------------------------------\
+ / Print "enter your forename:"         \  <-- Parallelogram (Output)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Read fn                              \  <-- Parallelogram (Input)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Print "enter your surname"           \  <-- Parallelogram (Output)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Read sn                              \  <-- Parallelogram (Input)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Print "enter your year of birth"     \  <-- Parallelogram (Output)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Read yob                             \  <-- Parallelogram (Input)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Print "forename : %c" (value fn)     \  <-- Parallelogram (Output)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Print "surname: %c" (value sn)       \  <-- Parallelogram (Output)
+/----------------------------------------/
+           |
+           v
+  /------------------------------------\
+ / Print "year of birth: %d" (value yob)\ <-- Parallelogram (Output)
+/----------------------------------------/
+           |
+           v
+       ( Stop )   <-- Oval
+
+
+*/
